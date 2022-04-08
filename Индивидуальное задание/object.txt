@@ -1,0 +1,25 @@
+#ifndef _objects_
+#define _objects_
+
+#define _CRT_SECURE_NO_WARNINGS
+
+#include "commons.h"
+
+//--- Структура ObjectsTable для хранения записи с данными об объекте
+typedef struct
+{
+	char CountryObjects[4];             //страна в которой находится объект
+	char NameObject[31];                //имя оюъекта  
+	int Square;                         //площадь объекта
+
+} ObjectsTable;
+
+ //----- Чтение всего массива записей из открытого файла
+void ReadObjects(FILE *fin);
+
+//парсинг по начальному фрагменту имени объекта и стране
+int Parser(char *NamePattern, char *country, ObjectsTable *resultCount);
+
+//----- Сортировка таблицыы ObjectsTable
+void sort_objects(int NumberObjects);
+#endif _objects_
