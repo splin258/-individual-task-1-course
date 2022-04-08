@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\IZ\commons.cpp">
+    <ClCompile Include="commons.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\IZ\main.cpp">
+    <ClCompile Include="objects.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\IZ\objects.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\IZ\commons.h">
+    <ClInclude Include="commons.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\IZ\objects.h">
+    <ClInclude Include="objects.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

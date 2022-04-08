@@ -114,13 +114,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\IZ\commons.h" />
-    <ClInclude Include="..\..\IZ\objects.h" />
+    <ClCompile Include="commons.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="objects.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\IZ\commons.cpp" />
-    <ClCompile Include="..\..\IZ\main.cpp" />
-    <ClCompile Include="..\..\IZ\objects.cpp" />
+    <ClInclude Include="commons.h" />
+    <ClInclude Include="objects.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
